@@ -16,7 +16,7 @@
       "has": [
         {
           "type": "host",
-          "value": "forum.ssangyongsports.eu.org"
+          "value": "https://forum.ssangyongsports.eu.org"
         }
       ],
       "destination": "https://forum.sysport.org/:path*",

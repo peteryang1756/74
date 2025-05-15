@@ -1,25 +1,25 @@
-{ 
+{
   "redirects": [
     {
-      "source": "/(.*)",
+      "source": "/:path*",
       "has": [
         {
           "type": "host",
           "value": "sysport.xyz"
         }
       ],
-      "destination": "https://sysports.de/:1",
+      "destination": "https://sysports.de/:path*",
       "permanent": true
     },
     {
-      "source": "/(.*)",
+      "source": "/:path*",
       "has": [
         {
           "type": "host",
           "value": "forum.ssangyongsports.eu.org"
         }
       ],
-      "destination": "https://forum.sysport.org/:1",
+      "destination": "https://forum.sysport.org/:path*",
       "permanent": true
     }
   ]

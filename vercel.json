@@ -5,10 +5,21 @@
       "has": [
         {
           "type": "host",
-          "value": "sysport.xyz"
+          "value": "forum.ssangyongsports.eu.org"
         }
       ],
-      "destination": "https://sysports.de/:path*",
+      "destination": "https://forum.sysport.org/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "forum.ssangyongsports.eu.org"
+        }
+      ],
+      "destination": "https://forum.sysport.org/",
       "permanent": true
     },
     {
@@ -16,10 +27,21 @@
       "has": [
         {
           "type": "host",
-          "value": "https://forum.ssangyongsports.eu.org"
+          "value": "sysport.xyz"
         }
       ],
-      "destination": "https://forum.sysport.org/:path*",
+      "destination": "https://sysports.de/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "sysport.xyz"
+        }
+      ],
+      "destination": "https://sysports.de/",
       "permanent": true
     }
   ]

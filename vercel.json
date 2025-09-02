@@ -43,6 +43,72 @@
       ],
       "destination": "https://sysports.de/",
       "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "ssangyongsports.eu.org"
+        }
+      ],
+      "destination": "https://sysports.de/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "ssangyongsports.eu.org"
+        }
+      ],
+      "destination": "https://sysports.de/",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "sysport.org"
+        }
+      ],
+      "destination": "https://sysports.de/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "sysport.org"
+        }
+      ],
+      "destination": "https://sysports.de/",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "sysport.top"
+        }
+      ],
+      "destination": "https://sysports.de/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "sysport.top"
+        }
+      ],
+      "destination": "https://sysports.de/",
+      "permanent": true
     }
   ]
 }
